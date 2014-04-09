@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 # -*- coding: UTF-8 -*-
 
-from __future__ import print_function
+# from __future__ import print_function
 
 # change those symbols to whatever you prefer
 symbols = {'ahead of': '↑', 'behind': '↓', 'prehash':':'}
@@ -65,5 +65,5 @@ out = '\n'.join([
     changed,
     untracked,
     clean])
-print(out)
 
+print out
